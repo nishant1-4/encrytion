@@ -1,5 +1,6 @@
 import random
 
+session_key = random.choice([i for i in range(20,51)])
 base64_list = [chr(i) for i in range(65,91)]
 base64_list.extend([chr(i) for i in range(97,123)]+[str(i) for i in range(0,10)]+['+','/'])
 
@@ -63,10 +64,10 @@ def decimal(binary:list):
 
 
 
-msg = 'Do you think that is right?'
-session_key = random.choice([i for i in range(20,51)])
+
+msg = input("Enter your message: ")
 enc_msg = []
 for i in msg:
   enc_msg.append(ord(i)^session_key)
 enc_hash = convertobase(bin_num(enc_msg))
-print(enc_hash) 
+print(f"Your encrypted message: {enc_hash}") 
