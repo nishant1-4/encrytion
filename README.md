@@ -45,5 +45,9 @@
 
 ## Update !
   1. Today is 7-June-2026, I added base64 decoding and splitted different functions into file for maintaining clean code structure.
+    tools.py -> bin_num, decimal, base64_list, base64_dict
+    encryption.py -> converttobase, encrypt, import necessary from tools.py
+    decryption.py -> decrypt, tools from tools.py
+    main.py -> importing encryption and decryption with a little testing
 
 ### Thanks for coming here!
