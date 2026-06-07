@@ -12,7 +12,8 @@
   2. Session key that is used to encrypt the whole message.
   3. Decimal to binary function.
   4. Binary to decimal function.
-  5. Convert bit(0,1) to base64.
+  5. Convert bits(0,1) to base64.
+  6. Convert base64 to bit(0,1) and reverse till the orginal msg.
 
 ## Why i wrote it from scratch?
   Actually, i want working on a simple terminal based banking project which have some simple operations like withdraw, deposit, etc.
