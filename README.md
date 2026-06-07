@@ -42,4 +42,7 @@
      Enter your message:
       Enter a message then press enter and an encrypted hash will come as output!
 
+## Update !
+  1. Today is 7-June-2026, I added base64 decoding and splitted different functions into file for maintaining clean code structure.
+
 ### Thanks for coming here!
