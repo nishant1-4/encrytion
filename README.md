@@ -30,8 +30,8 @@
    XOR Encryption ✅
    Binary Conversion ✅
    Base64 Encoding ✅
-   Base64 Decoding ❌
-   RSA Key Generation ❌
+   Base64 Decoding ✅
+   RSA Key Generation ✅
    RSA Encrypt / Decrypt ❌
    Digital Signatures ❌
    Full End to End Demo ❌
@@ -49,5 +49,9 @@
     encryption.py -> converttobase, encrypt, import necessary from tools.py
     decryption.py -> decrypt, tools from tools.py
     main.py -> importing encryption and decryption with a little testing
+  
+  2. Today is 9-June-2026, I added rsa.py file which will be used to generate keys (public and private) so that the message will be encrypted using public key and will be decrypted using private key.
+    -> The important thing is that I am not making it like real world encryption, just made it a small version of it.
+    -> I took prime numbers between 100 and 150 and and listed all the possible uniques pairs (total 45), this means only 45 users can have their public and private key and have a safe conversation.
 
 ### Thanks for coming here!
